@@ -1,0 +1,9 @@
+apps:
+  - script   : artisan
+    name     : 'queue:project-register'
+    interpreter : /usr/local/bin/php
+    cwd : /Users/trungphuna/Documents/work/web/duan/blogit
+    exec_mode: fork
+    args : queue:work --queue=project-register --tries=3
+    autorestart : true
+    restart_delay : 20000

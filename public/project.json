@@ -1,0 +1,218 @@
+{
+    "programmingLanguage": [
+        {
+            "name" : "Php"
+        },
+        {
+            "name" : "Java"
+        },
+        {
+            "name" : "C#"
+        },
+        {
+            "name" : "AI"
+        }
+    ],
+    "permission" : [
+        {
+            "name" : "dashboard",
+            "description" : "Tổng quan",
+            "group_permission" : 1
+        },
+        {
+            "name" : "group_article",
+            "description" : "Tin tức && Sự kiện",
+            "group_permission" : 2
+        },
+        {
+            "name" : "menu_index",
+            "description" : "Danh sách menu bài viết",
+            "group_permission" : 4
+        },
+        {
+            "name" : "menu_create",
+            "description" : "Thêm mới menu bài viết",
+            "group_permission" : 4
+        },
+        {
+            "name" : "menu_edit",
+            "description" : "Cập nhật menu bài viết",
+            "group_permission" : 4
+        },
+        {
+            "name" : "article_delete",
+            "description" : "Xoá bài viết",
+            "group_permission" : 4
+        },
+        {
+            "name" : "article_index",
+            "description" : "Danh sách bài viết",
+            "group_permission" : 5
+        },
+        {
+            "name" : "article_create",
+            "description" : "Thêm mới bài viết",
+            "group_permission" : 5
+        },
+        {
+            "name" : "article_edit",
+            "description" : "Cập nhật bài viết",
+            "group_permission" : 5
+        },
+        {
+            "name" : "article_delete",
+            "description" : "Xoá bài viết",
+            "group_permission" : 5
+        },
+        {
+            "name" : "article_index",
+            "description" : "Danh sách danh mục",
+            "group_permission" : 26
+        },
+        {
+            "name" : "article_create",
+            "description" : "Thêm mới danh mục",
+            "group_permission" : 26
+        },
+        {
+            "name" : "article_edit",
+            "description" : "Cập nhật danh mục",
+            "group_permission" : 26
+        },
+        {
+            "name" : "article_delete",
+            "description" : "Xoá danh mục",
+            "group_permission" : 26
+        },
+        {
+            "name" : "user_index",
+            "description" : "Danh sách thành viên",
+            "group_permission" : 14
+        },
+        {
+            "name" : "user_edit",
+            "description" : "Cập nhật thành viên",
+            "group_permission" : 14
+        },
+        {
+            "name" : "user_delete",
+            "description" : "Xoá thành viên",
+            "group_permission" : 14
+        },
+        {
+            "name" : "transaction_index",
+            "description" : "Danh sách đặt lịch",
+            "group_permission" : 10
+        },
+        {
+            "name" : "transaction_edit",
+            "description" : "Cập nhật đặt lịch",
+            "group_permission" : 10
+        },
+        {
+            "name" : "transaction_delete",
+            "description" : "Xoá đặt lịch",
+            "group_permission" : 10
+        },
+        {
+            "name" : "doctor_index",
+            "description" : "Danh sách bác sỹ",
+            "group_permission" : 7
+        },
+        {
+            "name" : "doctor_create",
+            "description" : "Thêm mới bác sỹ",
+            "group_permission" : 7
+        },
+        {
+            "name" : "doctor_edit",
+            "description" : "Cập nhật bác sỹ",
+            "group_permission" : 7
+        },
+        {
+            "name" : "doctor_delete",
+            "description" : "Xoá bác sỹ",
+            "group_permission" : 7
+        },
+        {
+            "name" : "slide_index",
+            "description" : "Danh sách slide",
+            "group_permission" : 17
+        },
+        {
+            "name" : "slide_create",
+            "description" : "Thêm mới slide",
+            "group_permission" : 17
+        },
+        {
+            "name" : "slide_edit",
+            "description" : "Cập nhật slide",
+            "group_permission" : 17
+        },
+        {
+            "name" : "slide_delete",
+            "description" : "Xoá slide",
+            "group_permission" : 17
+        },
+        {
+            "name" : "role_index",
+            "description" : "Danh sách role",
+            "group_permission" : 24
+        },
+        {
+            "name" : "role_create",
+            "description" : "Thêm mới role",
+            "group_permission" : 24
+        },
+        {
+            "name" : "role_edit",
+            "description" : "Cập nhật role",
+            "group_permission" : 24
+        },
+        {
+            "name" : "role_delete",
+            "description" : "Xoá role",
+            "group_permission" : 24
+        },
+        {
+            "name" : "permission_index",
+            "description" : "Danh sách permission",
+            "group_permission" : 23
+        },
+        {
+            "name" : "permission_create",
+            "description" : "Thêm mới permission",
+            "group_permission" : 23
+        },
+        {
+            "name" : "permission_edit",
+            "description" : "Cập nhật permission",
+            "group_permission" : 23
+        },
+        {
+            "name" : "permission_delete",
+            "description" : "Xoá permission",
+            "group_permission" : 23
+        },
+        {
+            "name" : "admin_index",
+            "description" : "Danh sách admin",
+            "group_permission" : 22
+        },
+        {
+            "name" : "admin_create",
+            "description" : "Thêm mới admin",
+            "group_permission" : 22
+        },
+        {
+            "name" : "admin_edit",
+            "description" : "Cập nhật admin",
+            "group_permission" : 22
+        },
+        {
+            "name" : "admin_delete",
+            "description" : "Xoá admin",
+            "group_permission" : 22
+        }
+    ]
+}

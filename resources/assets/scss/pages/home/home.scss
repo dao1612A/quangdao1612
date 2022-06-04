@@ -1,0 +1,17 @@
+// Base
+@import "../../base/common";
+
+// Plugin
+@import "~toastr";
+@import "../../components/header/header";
+@import "../../components/footer/footer";
+@import "../../components/footer/inc_footer_mb";
+
+
+// Component
+@import "../../components/breadcrumb";
+@import "../../components/inc_keyword";
+@import "include/inc_core_document";
+@import "../../components/text_content";
+@import "include/inc_document_detail";
+

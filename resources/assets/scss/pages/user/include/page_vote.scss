@@ -1,0 +1,58 @@
+.page-info-ticket {
+    .box {
+
+        &-left {
+            .box-vote {
+                label {
+                    width: 80px;
+                    display: inline-block;
+                }
+                .custom-star {
+                    font-size: 14px;
+                    background: #e9e9e9;
+                    margin-right: 5px;
+                    padding: 7px;
+                    border-radius: 2px;
+                    &:hover{
+                        cursor: pointer;
+                    }
+                }
+                .custom-star.selected{
+                    background: #4688ff;
+                }
+            }
+        }
+        &-right {
+            .content {
+                padding: 15px;
+                color: #484848;
+                h2 {
+                    font-size: 20px;
+                    font-weight: 600;
+                    margin-bottom: 10px;
+                }
+                ul {
+                    list-style: square;
+                    padding-left: 20px;
+                    li {
+                        list-style: unset;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 767px) {
+    .page-info-ticket {
+        .box {
+
+            &-left {
+
+            }
+            &-right {
+
+            }
+
+        }
+    }
+}

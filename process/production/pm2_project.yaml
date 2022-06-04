@@ -1,0 +1,9 @@
+apps:
+  - script   : artisan
+    name     : 'queue:project-register'
+    interpreter : /usr/bin/php
+    cwd : /var/www/duan/previewcode
+    exec_mode: fork
+    args : queue:work --queue=project-register --tries=3
+    autorestart : true
+    restart_delay : 20000

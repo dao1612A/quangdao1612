@@ -1,0 +1,17 @@
+.section_title {
+    h1 {
+        margin: 10px 0;
+        font-size: 18px;
+        color: #333;
+        font-weight: 500;
+    }
+    &-desc {
+        margin: 10px 0;
+        p {
+            line-height: 20px;
+        }
+        a {
+            color: $color-link;
+        }
+    }
+}

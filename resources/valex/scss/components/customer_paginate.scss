@@ -1,0 +1,14 @@
+.nav-pagination {
+    ul {
+        li {
+            display: inline-block;
+            a,span {
+                width: 30px;
+                height: 30px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+    }
+}

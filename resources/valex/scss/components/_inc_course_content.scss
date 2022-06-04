@@ -1,0 +1,24 @@
+.tab-course-content {
+    .item {
+        display: flex;
+        align-items: center;
+        border-bottom: 1px solid #dedede;
+        margin-bottom: 10px;
+        &-icon {
+            width: 50px;
+        }
+
+        &-content{
+            width: 80%;
+            p {
+                margin-bottom: 0;
+            }
+        }
+        &-action{
+
+        }
+        &:last-child{
+            margin-bottom: 0;
+        }
+    }
+}

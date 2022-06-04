@@ -1,0 +1,58 @@
+.detail {
+    display: flex;
+    margin-bottom: 20px;
+    h1 {
+        font-size: 20px;
+        font-weight: 500;
+    }
+    &-avatar {
+        flex: 0 0 1;
+        width: 20%;
+        a {
+            display: block;
+            img {
+                width: 100%;
+                height: auto;
+            }
+        }
+        margin-right: 15px;
+    }
+    &-info {
+        flex: 0 0 1;
+        width: 80%;
+    }
+    &-action {
+        margin-top: 10px;
+    }
+    &-price {
+        span {
+            font-weight: bold;
+            color: #666;
+        }
+        .price-new {
+            color: $color_pink;
+            margin-right: 10px;
+        }
+        .price-old{
+            font-weight: 400;
+            text-decoration: line-through;
+        }
+    }
+    &-desc{
+        border: 2px dashed #ccc;
+        margin-top: 10px;
+        border-radius: 5px;
+        padding: 10px;
+        ul{
+            list-style: square;
+            padding-left: 20px;
+            li {
+                line-height: 1.5rem;
+                list-style: unset;
+                a {
+                    color: #484848;
+                }
+            }
+        }
+    }
+}

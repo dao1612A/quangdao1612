@@ -1,0 +1,68 @@
+// Base
+@import "../../base/common";
+
+// Plugin
+
+// Component global
+@import "../../components/select2_custom";
+.container-full-sm {
+    max-width: 1170px;
+    padding: 0 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.conha-district-select2-container {
+    height: 38px !important;
+    border-radius: 0 !important;
+    border-left: 1px !important;
+    border-right: 1px !important;
+    .select2-selection__rendered {
+        line-height: 38px !important;
+    }
+    .select2-selection__arrow {
+        height: 38px !important;
+    }
+}
+.select2-container--default .select2-selection--single {
+    border: 2px solid #f2f2f2 !important;
+}
+@import "~select2";
+@import "~toastr";
+@import '../../../../../node_modules/sweetalert2/src/sweetalert2';
+@import "~bootstrap-fileinput/css/fileinput.min.css";
+@import "../../components/header/header";
+@import "../../components/footer/footer";
+@import "../../components/footer/inc_footer_mb";
+@import "~@chenfengyuan/datepicker";
+@import "~jquery-datetimepicker/jquery.datetimepicker.css";
+
+// Component
+@import "../../components/breadcrumb";
+@import "include/custome_uploads_images";
+@import "../../components/inc_tab_content";
+@import "include/page_user";
+@import "include/page_info_ticket";
+@import "include/page_vote";
+
+.upload-btn-wrapper {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    .btn-upload {
+        border: 1px solid gray;
+        color: gray;
+        background-color: white;
+        padding: 8px 20px;
+        border-radius: 8px;
+        font-size: 14px;
+    }
+
+    input[type=file] {
+        font-size: 100px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        opacity: 0;
+    }
+}
+//@import "include/inc_news";

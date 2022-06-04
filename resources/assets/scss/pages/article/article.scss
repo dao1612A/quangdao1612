@@ -1,0 +1,21 @@
+// Base
+@import "../../base/common";
+@import "../../base/form";
+
+// Component global
+@import "../../components/header/header";
+@import "../../components/footer/footer";
+@import "../../components/footer/inc_footer_mb";
+@import "../../components/box_search";
+@import "../../components/breadcrumb";
+@import "../../components/form_contact";
+@import "../../components/text_content";
+@import "../../components/inc_link";
+@import "../../components/inc_votes_list";
+
+// Component
+@import "include/inc_content_detail";
+@import "../../components/inc_tab_content";
+@import "include/inc_route";
+@import "include/inc_articles";
+@import "include/inc_articles_mb";

@@ -1,0 +1,48 @@
+.content-description {
+    border-left: 5px solid #dedede;
+    padding-left: 10px;
+    margin: 15px 0;
+    font-weight: bold;
+    font-size: 15px;
+}
+.content-text {
+    .widget-toc {
+        background-color: #f6f6f6;
+        padding: 10px 0;
+        margin-bottom: 10px;
+        transition: all .5s ease;
+        .toc-title {
+            text-align: center;
+        }
+        li {
+            line-height: 2;
+            a {
+                font-size: 14px;
+                color: #222;
+            }
+        }
+    }
+    a {
+        color: #007bff;
+    }
+    h2, h3, h4, h5 {
+        margin: .7rem 0;
+        font-weight: 500;
+    }
+    h2 {
+        font-size: 18px;
+    }
+    ol, ul {
+        padding-left: 30px;
+        margin: 1rem 0;
+    }
+    ol {
+        list-style-type: decimal;
+    }
+    ul {
+        list-style-type: disc;
+    }
+    img {
+        max-width: 100%;
+    }
+}

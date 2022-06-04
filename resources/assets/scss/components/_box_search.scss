@@ -1,0 +1,107 @@
+.box-search {
+    background: #262637;
+
+    .box-search-content {
+        display: flex;
+        align-items: center;
+        > div {
+            margin-bottom: 5px;
+            margin-top: 5px;
+
+            > button {
+                width: 100%;
+            }
+        }
+
+        .search-title {
+            flex-grow: 1;
+        }
+
+        .search-sm {
+            flex: 0 0 15%;
+            max-width: 15%;
+            margin-left: 5px;
+        }
+
+        .form-group {
+            i {
+                padding: 0 5px;
+                font-size: 14px;
+                line-height: 40px;
+                position: absolute;
+                color: #b3b3b3;
+            }
+        }
+        .search-price {
+            flex: 0 0 10%;
+        }
+        .search-title {
+            > input {
+                text-indent: 15px;
+            }
+        }
+        .search-drop {
+            display: flex;
+            align-items: center;
+            margin-left: 0;
+            position: relative;
+            span {
+                padding: 0;
+                width: 130px;
+                background-color: white;
+                height: 38px;
+                padding-left: 10px;
+                line-height: 38px;
+                border: 2px solid #f2f2f2 !important;
+                border-right: none;
+                b {
+                    margin-left: 10px;
+                }
+                &:hover {
+                    cursor: pointer;
+                }
+                border-top-right-radius: 0px;
+                border-bottom-right-radius: 0px;
+                border-right: 0 !important;
+            }
+            input {
+                border-top-left-radius: 0px;
+                border-bottom-left-radius: 0px;
+                width: 300px;
+            }
+
+            ul {
+                display: none;
+                position: absolute;
+                width: 100%;
+                background-color: white;
+                left: 0px;
+                top: 100%;
+                border: 1px solid #dedede;
+                li {
+                    a {
+                        padding: 10px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 991px){
+    .box-search{
+        .box-search-content{
+            flex-direction: column;
+            .search-drop{
+                width: 100%;
+                input{
+                    width: 100%;
+                }
+            }
+            .search-sm{
+                width: 100%;
+                max-width: 100%;
+            }
+        }
+    }
+}

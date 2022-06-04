@@ -1,0 +1,29 @@
+.clearfix {
+    clear: both;
+}
+.clearfix::after {
+    display: block;
+    clear: both;
+    content: "";
+}
+.file-zoom-dialog {
+    display: none;
+}
+.file-caption-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin: 15px 0;
+    .file-caption {
+        width: 100%;
+    }
+    .file-caption-name {
+        height: 36px;
+        text-indent: 10px;
+    }
+    .input-group-append {
+        display: flex;
+        justify-content: space-between;
+    }
+}

@@ -1,0 +1,89 @@
+//.form-contact {
+//    padding: 15px;
+//    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+//
+//    > h4 {
+//        font-size: 18px;
+//        font-weight: 600;
+//        margin-bottom: 10px;
+//    }
+//
+//    > form {
+//        display: flex;
+//        align-items: center;
+//        justify-content: center;
+//
+//        .col-contact {
+//            text-align: center;
+//            flex: 1;
+//
+//            > a {
+//                display: block;
+//
+//                > img {
+//                    width: 130px;
+//                    height: 130px;
+//                    border-radius: 100px;
+//                }
+//            }
+//
+//            .info-contact {
+//                > h3 {
+//                    font-size: 20px;
+//                    font-weight: 600;
+//                }
+//
+//                > p {
+//                    color: $color_sky_blue;
+//                    font-size: 16px;
+//                }
+//
+//                > ul {
+//                    margin-top: 10px;
+//
+//                    > li {
+//                        font-size: 16px;
+//                    }
+//                }
+//            }
+//
+//            button {
+//                width: 100%;
+//                border-radius: 50px;
+//            }
+//        }
+//    }
+//}
+//
+//@media (max-width: 767px){
+//    .form-contact{
+//        form{
+//            align-items: unset;
+//            flex-direction: column;
+//            .col-contact-info{
+//                display: flex;
+//                >a{
+//                    img{
+//                        margin-right: 15px;
+//                    }
+//                }
+//            }
+//        }
+//    }
+//}
+//@media (min-width: 992px) and (max-width: 1199px){
+//    .form-contact{
+//        form{
+//            align-items: unset;
+//            flex-direction: column;
+//            .col-contact-info{
+//                display: flex;
+//                >a{
+//                    img{
+//                        margin-right: 15px;
+//                    }
+//                }
+//            }
+//        }
+//    }
+//}

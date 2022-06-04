@@ -1,0 +1,99 @@
+.users {
+    margin-top: 20px;
+    display: flex;
+    min-height: 60vh;
+    .heading-h4 {
+        margin-bottom: .5rem;
+        font-weight: 500;
+        font-size: 16px;
+    }
+    &-sidebars {
+        flex: 0 0 1;
+        width: 20%;
+        margin-right: 10px;
+        .box {
+            padding: 16px;
+            width: 200px;
+            border: 1px solid rgb(192, 192, 192);
+            border-radius: 4px;
+            background-color: rgb(255, 255, 255);
+        }
+        ul {
+            li {
+                a {
+                    display: flex;
+                    align-items: center;
+                    img {
+                        margin-right: 10px;
+                    }
+                    margin-bottom: 1rem;
+                }
+                a.active {
+                    color: #ef7733;
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+    &-content {
+        flex: 0 0 1;
+        width: 80%;
+        background: white;
+    }
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    right: 0;
+}
+.dropdown-content a {
+    color: #333;
+    padding: 4px 16px;
+    text-decoration: none;
+    display: block;
+}
+@media screen and (max-width: 900px) {
+    .users {
+        background-color: lavender;
+        &-sidebars {
+
+            height: 100%;
+            width: 250px;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: -100%;
+            overflow-x: hidden;
+            transition: 0.5s;
+            padding-top: 60px;
+        }
+        &-sidebars.active {
+            left: 0;
+        }
+        &-content {
+            width: 100%;
+        }
+    }
+}
+.manage-money {
+    i {
+        margin-right: 5px;
+    }
+    i.fa-long-arrow-up {
+        color: #28a745;
+    }
+
+    i.fa-long-arrow-down {
+        color: #dc3545;
+    }
+}
+
+.text-orange {
+    color: $text-orange;
+}

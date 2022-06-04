@@ -1,0 +1,235 @@
+@import "~jquery-modal/jquery.modal.min.css";
+
+.blocker {
+  z-index: 999;
+  padding: 10px;
+}
+
+.close-modal{
+  font-size: 25px !important;
+  top: 13px !important;
+  right: 20px !important;
+  color: #fff !important;
+}
+
+.modal {
+  padding: 0;
+  &-header {
+    background: $color_sky_blue;
+    border-radius: 8px 8px 0 0;
+    padding: 12px 15px;
+    &__title {
+      //i {
+      //  margin-right: 10px;
+      //  font-weight: 600;
+      //  color: #4CAF50;
+      //  font-size: 20px;
+      //}
+      font-size: 20px;
+      text-align: center;
+      color: #fff;
+      //span{
+      //  color: $pink;
+      //}
+    }
+  }
+  &-body {
+    padding: 20px;
+    //.modal-title {
+    //  font-size: 16px;
+    //}
+    .action{
+      button{
+        width: 120px;
+      }
+      &__cancel{
+        color: $color_sky_blue;
+        font-weight: 600;
+        padding-left: 10px;
+      }
+    }
+  }
+  //&-footer {
+  //  padding: 15px;
+  //}
+  a.close-modal {
+    top: 0;
+    right: -1px;
+    width: 25px;
+    height: 25px;
+    color: #333;
+    line-height: 24px;
+    text-align: center;
+    text-decoration: none;
+    text-indent: 0;
+    background: transparent;
+    border-radius: 50%;
+    font-size: 14px;
+  }
+}
+
+.modal-form {
+  &--small {
+    max-width: 400px;
+  }
+  &__intro {
+    color: #6f6f6f;
+    font-size: 13px;
+    line-height: 20px;
+  }
+  &__button {
+    margin-top: 10px;
+  }
+  .form-group {
+    label {
+      position: relative;
+      font-weight: 600;
+      //.icon-action {
+      //  cursor: pointer;
+      //  float: right;
+      //  font-weight: 400;
+      //  color: #333;
+      //}
+    }
+    &--star {
+      height: 40px;
+      margin-bottom: 0;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      position: relative;
+      > label {
+        &.error {
+          color: #ca0e00;
+          font-size: 13px;
+          font-weight: 600;
+          margin-top: 0;
+          line-height: 22px;
+        }
+      }
+      .star {
+        position: relative;
+        i {
+          cursor: pointer;
+        }
+        .rating-text {
+          font-size: 13px;
+          margin-top: -5px;
+        }
+      }
+    }
+    input, select, textarea {
+      border: 2px solid #f2f2f2 !important;
+      border-radius: 0 !important;
+      font-size: 14px;
+      padding: 8px;
+      width: 100%;
+      line-height: 22px;
+    }
+    input[type=radio] {
+      width: auto;
+    }
+    input[type=file] {
+      border: 0 !important;
+      display: block;
+      font-size: 12px;
+      padding: 0;
+      &:focus {
+        box-shadow: none !important;
+      }
+      &::-webkit-file-upload-button {
+        background: #fff;
+        border: 2px solid $text-des;
+        border-radius: 50px;
+        color: $text-des;
+        cursor: pointer;
+        padding: 8px 10px;
+      }
+    }
+  }
+}
+
+.modal-step {
+  display: flex;
+  justify-content: space-between;
+  &__count {
+    font-size: 13px;
+    color: #999;
+    align-self: center;
+  }
+}
+.modal-spinner {
+  height: 45px;
+}
+
+.note-editable {
+  ol, ul {
+    padding-left: 18px;
+    li {
+      list-style-type: square;
+      font-size: 13px;
+    }
+  }
+}
+.note-editor.note-frame {
+  border: 2px solid #E6ECF5 !important;
+  border-radius: 5px;
+  .note-toolbar {
+    padding: 0;
+    border-bottom: 1px solid #E6ECF5;
+    border-radius: 5px 5px 0 0;
+    .note-btn-group {
+      margin: 0 5px 0 0;
+    }
+  }
+}
+
+.modal-form {
+  .vote-star {
+    .form-group {
+      &--star {
+        label {
+          flex: 1 1 50%;
+          &.error-color {
+            color: #ca0e00;
+          }
+        }
+        .star {
+          flex: 1 1 50%;
+        }
+      }
+    }
+  }
+}
+.custom-star {
+  font-size: 20px;
+}
+.wrap-captcha {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  .alert-err {
+    color: #ff0101;
+  }
+  .g-recaptcha {
+    margin-bottom: 10px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 1200px) {
+  .blocker {
+    padding: 0;
+  }
+  .modal-form {
+    margin: 15px 0;
+    .vote-star {
+      .form-group {
+        &--star {
+          .star {
+            text-align: right;
+          }
+        }
+      }
+    }
+  }
+}
